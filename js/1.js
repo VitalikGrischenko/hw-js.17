@@ -84,10 +84,10 @@ const musicLibrary = {
         ],
       },
     ],
-  };
+  }
   
   
-  const {
+const {
     count,
     artists: [
       {
@@ -139,7 +139,9 @@ const musicLibrary = {
     ],
   } = musicLibrary;
   
-  
-  
+
+  console.log(count);
   console.log(ArtistName1);
-  console.log(TrackTitle11);
+  console.log(AlbumTitle1);
+  console.log(TrackTitle1);
+  console.log(TrackDuration1);
